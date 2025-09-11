@@ -1,0 +1,193 @@
+body {
+    background-color: purple;
+    color: rgb(214, 236, 154);
+
+    font-family: "Libertinus Keyboard", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    padding:0;
+
+}
+/*grouping selectores */
+h1,h2,h3,h4,h5,h6 {
+    margin:0;
+}
+
+h3,h2 {
+
+    font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+
+
+}
+  header {
+    background-color: #9364d1;
+    text-align:center;
+    border: 10px solid rgb(238, 230, 121);
+    padding: 20;
+    font-size:24px;
+  }
+  
+  nav 
+{
+    background-color: rgb(249, 172, 65);
+    text-align:center;
+    padding:25px;
+}
+
+    nav a {
+        font-size:24px;
+        color:rgb(31, 110, 59);
+        text-decoration:none;
+        margin:0px 10px;
+        letter: spacing 3px;
+    }
+nav a:hover {
+    color :rgb(229, 242, 54);
+    text-decoration:underline;
+}
+main {
+    background-color: black;
+    padding:50px 170px;
+}
+
+footer {
+    background-color: rgb(100, 18, 132);
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  padding: 100px;
+    
+}
+
+main h2,h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+main p {
+    margin:20 px 0px;
+    font-size: 18px;
+    color: beige;
+
+}
+
+  p {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+blockquote {
+    font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+footer a {
+    font-size:24px;
+        color:rgb(190, 231, 95);
+        text-decoration:none;
+        margin:0px 10px;
+        letter: spacing 3px;
+}
+
+footer a:hover {
+   
+    text-decoration:underline;
+   
+}
+
+.image-container{
+    position:
+    width:auto;
+    position: relative;
+   
+}
+
+.image-container img {
+   width: 100%;
+   
+    
+}
+
+.overlay-text{
+    position:absolute;
+   
+    bottom:10px;
+    left:10px;
+    right:10px;
+    color: beige;
+    
+
+}
+
+@keyframes bounce {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-10px);}
+    100% {transform: translateY(0);}
+}
+
+.bouncy-title {
+    animation: bounce 1.5s infinite;
+}
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    /*ignores text overlay*/
+    z-index: 100;
+}
+
+.box{
+   
+     text-align: center;
+    gap: 20px;
+    padding:20px;
+
+}
+
+.box img 
+{
+   width:200px;
+   height:200px;
+   border-radius: 15px;
+   padding:15px;
+   background-color: rgb(123, 48, 44);
+   
+
+}
+
+
+p:hover, blockquote:hover, h3:hover, nav a:hover, h1:hover, h2:hover, li:hover{
+    background:linear-gradient(90deg,red,orange,yellow,green,blue, indigo,violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+img {
+    filter:grayscale(100%);
+    
+}
+img:hover {
+filter:grayscale(0%);
+}
+
+.white-box{
+   display:inline-block;
+   background-color:purple;
+    text-align: center;
+   border:1px solid white;
+   padding:50px 150px;
+   margin: 50px;;
+
+}
+
+/* animation, sticky nav, rainbow text hover, grayscale img hover, gallery borders, text overlay, box around footer*/
