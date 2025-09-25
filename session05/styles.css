@@ -1,0 +1,165 @@
+body {
+    background-color: #000;
+    background-image: url("images/moss04.jpg");
+    background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+    /* background-position-y: bottom;  */
+
+    margin: 0;
+    padding: 0;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    /* 200 – 800 */
+    font-style: normal;
+
+}
+
+/* id rule uses hashtag #, only one per page */
+#wrapper {
+    margin: 100px auto;
+    width: 60%;
+    background-color: #97B4DB;
+    padding: 30px 50px;
+        /* background-image: url("images/moss03.jpg"); */
+}
+
+/* class rules use a period to make a rule about a class, use multiple times */
+.wow {
+    color: #B45CF2;
+    font-weight: 900;
+    font-style: italic;
+    /* border: solid 3px black;
+    padding: 3px; */
+}
+
+header h1 {
+
+    font-family: "Bitcount Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    /* 100-900 */
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 66px;
+}
+
+nav {
+    background-color:#A797DB ;
+    padding: 40px 10px;
+    text-align: center;
+}
+
+nav a {
+
+padding: 10px 20px;
+margin: 10px 20px;
+border: solid #5CC5F2;
+text-decoration: none;
+
+}
+nav a:hover{
+    background-color: aquamarine;
+}
+main p {
+
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.featuredText {
+    font-size: 33px;
+    color: #5C66F2;
+    line-height: 38px;
+}
+
+table, th, td, tr {
+margin: 0px;
+padding: 0px;
+
+}
+
+
+main table {
+border: 10px solid #5CB9F2;
+    background-color: #D55CF2;
+
+}
+
+main table th {
+border: 5px solid#B45CF2;
+    background-color: #D55CF2;
+        font-family: "Bitcount Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    /* 100-900 */
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 33px;
+    padding:22px;
+
+}
+
+main table td {
+border: 5px solid #5CB9F2;
+    background-color: rgb(255, 255, 255);
+
+}
+
+main h2 {
+    border: solid 10px #835CF2
+    background-color: #B45CF2
+    font-size: 33px;
+    padding: 50px 10px 10px 10px;
+    margin: 100px opx 20px 0px;
+    font-style: italic;
+}
+
+main div.featuredImage {
+    border: 10px solid #D55CF2;
+    background-color: #A45CF2;
+    padding: 40px;
+    width: 200px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+main div.featuredImage img {
+    width: 100%;
+}
+
+footer {
+    border: solid 2px #835CF2;
+    padding: 70px;
+    background: #B45CF2;
+}
+
+footer div.featuredFooter {
+    border: 10px solid #D55CF2;
+    background-color: #A45CF2;
+    padding: 5px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    
+    
+}
+
+footer div.featuredFooter img {
+    width: 100%;
+}
+
+footer ul {
+    border: solid 5px#9a089f;
+    padding: 50px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: aquamarine;
+    
+}
