@@ -1,0 +1,102 @@
+/* START border-box fix */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/* END border-box fix */
+
+body {
+    background-color: #13583A;
+    color: #FFF;
+}
+
+div.container {
+    width: 80%;
+    background-color: #229C67;
+    /* center the div container */
+    margin: 40px auto;
+}
+header,
+nav,
+main,
+aside,
+footer {
+    padding: 20px;
+}
+nav {
+    background-color: rgb(137,189,188);
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    background-color: #13583A;
+    width: 100px;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 0px 10px;
+    border-radius: 120px;
+}
+nav a {
+    text-decoration: none;
+    color: #FFF;
+}
+nav a:hover {
+    color: #33E89A;
+}
+main {
+    background-color: #1B7A50;
+    width: 70%;
+    float: left;
+}
+section {
+    background-color: #229C67;
+    
+    
+}
+aside {
+    background-color: #229C67;
+    width: 30%;
+    float: left;
+    
+}
+footer {
+    background-color: #33E89A;
+    float: none;
+    clear: both;
+}
+
+.gallery{
+    width: 90%;
+    margin:0 auto;
+    
+}
+
+
+
+aside img {
+  background-color: #229C67;
+  width:auto;
+  float: left;
+  
+  
+}
+.img-left {
+  background-color: #229C67;
+  
+  max-width: 100%;
+  float:right ;
+}
+  
+ 
+/* 
+new page */
+/* 
+https://rhizome.org/events/rhizome-presents-vibe-shift/ */
