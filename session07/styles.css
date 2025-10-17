@@ -1,0 +1,210 @@
+/* START border-box fix */
+html {
+box-sizing: border-box;
+}
+/* asterisk (*) symbol represents the universal selector. Its primary function is to select all elements of any type within the document. */
+/* :before is a pseudo-element used to insert content before the actual content of a selected element. It creates a "virtual" first child within the element, allowing you to style and add content that isn't directly present in your HTML markup. */
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+/* END border-box fix */
+
+body {
+    background-color: #E6CBFD;
+    background-image: url("IMAGES/01.jpg");
+  
+    background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+    /* background-position-y: bottom;  */
+     background-size: cover;
+     margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+#wrapper {
+    margin: 0px auto;
+    /* centers wrapper */
+    background-color: #E8B9D3;
+    max-width: 1000px;
+    border: solid 10px #E6CBFD;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: flex-start;
+       
+}
+
+#wrapper>*{
+    padding: 20px;
+
+}
+header {
+background:#C27AAD;
+order: 1;
+flex: 1 0 100%;
+position: sticky;
+top: 0;
+z-index: 1;
+}
+main {
+background:#BB96A8;
+order: 3;
+flex: 1 1 500px;
+
+}
+nav {
+background:#DDB1C7;
+order: 2;
+flex: 1 0 200px;
+}
+aside {
+background:#DDB1C7;
+order: 4;
+flex: 1 0 200px;
+}
+footer {
+background:#ca96b0;
+order: 5;
+flex: 1 0 100%;
+}
+
+
+
+/* SUBSCRIBE BUTTON */
+/* SUBSCRIBE BUTTON */
+div.buttonAbsolute {
+background-color:#DF829C;
+opacity: 1.0;
+text-align: center;
+color: rgb(0, 0, 0);
+width: 150px;
+border-radius: 125px;
+padding: 20px;
+position: absolute;
+top: 10px;
+right: 10px;
+z-index: 2;
+}
+div.buttonAbsolute:hover{
+    background-color: #ad629c;
+
+}
+
+/* view gallery button */
+div.buttonRelative {
+background-color:#C27AAD;
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 20px;
+width: 200px;
+position: relative;
+left: 60px;
+z-index: 3;
+ border-radius: 10px;
+}
+
+div.buttonRelative:hover{
+    background-color: #ad629c;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #ad629c;
+   grid-template-columns: fit-content(250px) fit-content(250px) auto;
+    border-radius: 10px;
+}
+
+.container div {
+  background-color: #edc6d9;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;  
+  font-size: 30px;
+   border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size:20px;
+    align: center;
+}
+
+.container div:hover {
+  background-color: #a16f96;
+}
+
+
+table, th, td, tr {
+margin: 0px;
+padding: 0px;
+
+}
+
+
+main table {
+border: 10px solid #a16f96;
+    background-color: #edc6d9;
+
+}
+
+
+
+main table td {
+border: 5px solid #eab5e5;
+    background-color: rgb(224, 158, 205);
+
+}
+.containerimage{
+  display: flex;
+  background-color: #ad629c;
+}
+
+.containerimage div {
+  background-color:  #edc6d9;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;}
+
+  .featuredImage {
+     display: flex;
+    justify-content: center;
+    padding: 5px;
+  margin: 10px;
+    max-width: 200px
+  }
+
+  .featuredImage img {
+     width: 100%;
+     height: auto;
+
+  }
+
+.galleryRow {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 10px; 
+  padding: 5px;
+  margin: 10px;
+  
+}
+
+.galleryRow img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  
+}
+
+h2 {
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
