@@ -1,0 +1,108 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	background-color: #FFF3B0;
+}
+
+h1 {
+	color: #335C67;
+	text-align: center;
+}
+
+#left-container {
+	left: 0px;
+}
+
+#right-container {
+	right: 0px;
+}
+
+.container {
+	background-color:#E09F3E;
+	width: 15%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.plant-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+	
+}
+
+.plant {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+
+.jar-walls {
+	height: 80%;
+	width: 60%;
+	background: #bdd4ba;
+	border-radius: 1rem;
+	position: absolute;
+	bottom: 0.1%;
+	left: 20%;
+	opacity: 0.5;
+	z-index: 1;
+	background-image: url(images/food16.png);
+}
+
+.jar-top {
+	width: 50%;
+	height: 5%;
+	background-image: url(images/food15.png);
+	background-position: center;
+	border-radius: 0 0 1rem 1rem;
+	position: absolute;
+	bottom: 80.5%;
+	left: 25%;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.jar-bottom {
+	width: 50%;
+	height: 1%;
+	background: #540B0E;
+	position: absolute;
+	bottom: 0%;
+	left: 25%;
+	opacity: 0.7;
+}
+
+.dirt {
+	width: 60%;
+	height: 5%;
+	background: #9E2A2B;
+	position: absolute;
+	border-radius: 0 0 1rem 1rem;
+	bottom: 1%;
+	left: 20%;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+.jar-glossy-long {
+	width: 3%;
+	height: 20%;
+	border-radius: 2rem;
+	background: #f7eded;
+	position: absolute;
+	bottom: 20%;
+	left: 5%;
+}
+
+.jar-glossy-short {
+	width: 3%;
+	height: 5%;
+	border-radius: 2rem;
+	background: #f7eded;
+	position: absolute;
+	bottom: 45%;
+	left: 5%;
+}
