@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Midterm</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<header>
+			<img src="IMAGES/02.jpg">
+			<div class="titlecontainer">
+				<h2>CUPCAKERIA</h2>
+			</div>
+		</header>
+
+		<main>
+			<h2>TRY OUR DESSERTS BELOW!</h2>
+
+			<div class="box">
+				<div class="slider">
+					<img src="IMAGES/06.jpg">
+					<img src="IMAGES/07.jpg">
+					<img src="IMAGES/08.jpg">
+					<img src="IMAGES/09.jpg">
+
+
+
+				</div>
+
+			</div>
+
+
+
+
+
+
+
+
+			<div class="buttonRelative">
+				<a href="gallery.html">ORDER HERE </a>
+			</div>
+		</main>
+
+		<div class="buttonAbsolute">
+			
+		</div>
+
+
+		<nav id="nav">
+			<div class="titlecontainer">
+				<h2>NAVIGATION BAR</h2>
+			</div>
+			<ul>
+				<div class="container">
+					<div><a href="index.html">
+							<li>Home</li>
+						</a></div>
+					<div><a href="gallery.html">
+							<li>Gallery</li>
+						</a></div>
+					<div><a href="about.html">
+							<li>About</li>
+						</a></div>
+
+				</div>
+
+
+			</ul>
+			<button id="navBtn">Read Less</button>
+			<script type="text/javascript">
+				$(document).ready(function () {
+
+
+
+
+					$("#navBtn").click(function () {
+						$("#nav li").toggle("slow", function () {
+
+							if ($("#nav li").is(":visible")) {
+								$("#navBtn").text("Read less");
+							} else {
+								$("#navBtn").text("Read more");
+							}
+						});
+					});
+				});
+
+			</script>
+		</nav>
+
+		<aside id="sources">
+
+			<div class="titlecontainer">
+				<h2>Sources</h2>
+			</div>
+
+
+			<ul class="container">
+				<li><a href="https://ohmyfacts.com/food-beverage/25-facts-about-desserts/" target="_blank">25 Dessert
+						Facts</a></li>
+				<li><a href="https://stackoverflow.com/questions/46264684/image-slider-keyframing-in-css"
+						target="_blank">IMG Slider Reference</a></li>
+				<li><a href="https://www.sublimedesserts.com/about-us/" target="_blank">Our Competitor</a></li>
+				<li><a href="https://drive.google.com/file/d/16o_cDTAcRc2VqIeyYCynu_ESHWCCpGCR/view?pli=1"
+						target="_blank">Read More/Less jQuery</a></li>
+				<li><a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">HTML Forms Reference</a>
+				</li>
+				<li><a href="https://www.w3schools.com/html/html5_webstorage.asp" target="_blank">HTML Web Storage</a>
+				</li>
+				<li><a href="https://www.w3schools.com/js/js_events.asp" target="_blank">HTML Events (click button)</a>
+				</li>
+				<li><a href="https://www.w3schoolsapp.com/jsref/met_win_settimeout.html" target="_blank">setTimeout
+						Reference</a></li>
+				<li><a href="https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/7-arrays/upload-editor"
+						target="_blank">p5js animation</a></li>
+				<li><a href="https://p5js.org/reference/#/p5.Element/style" target="_blank">Z index</a></li>
+
+
+			</ul>
+<button id="sourcesBtn">Read Less</button>
+			<script type="text/javascript">
+				$(document).ready(function () {
+
+
+
+
+					$("#sourcesBtn").click(function () {
+						$("#sources li").toggle("slow", function () {
+
+							if ($("#sources li").is(":visible")) {
+								$("#sourcesBtn").text("Read less");
+							} else {
+								$("sourcesBtn").text("Read more");
+							}
+						});
+					});
+				});
+
+			</script>
+		</aside>
+
+		<footer>
+
+			<h2>Follow Us</h2>
+			<ul class="followus">
+				<li><a href="https://x.com/" target="_blank">Twitter 🐦</a></li>
+				<li><a href="https://www.facebook.com/" target="_blank">Facebook 📘</a></li>
+				<li><a href="https://www.instagram.com/" target="_blank">Instagram 📸</a></li>
+			</ul>
+
+			<p class="credit">Made by Xueyu Lin</p>
+			<p class="copyright">&#169; 2025 Sherlybelly. All rights reserved.</p>
+			<!DOCTYPE html>
+			<html>
+
+			<head>
+				<title>Subscribe Button Example</title>
+				<link rel="stylesheet" href="styles.css">
+			</head>
+
+			<body>
+
+				
+
+				Name: <input type="text" id="fullname"><br>
+				Email: <input type="text" id="email"><br>
+				<button id="btnRun">Subscribe</button>
+
+				<span id="msg"></span>
+
+		
+			</body>
+
+			</html>
+
+		</footer>
+
+<script src="p5js/p5.js"></script>
+		<script src="p5js/cursorSketch.js"></script>
+		<script src="script.js"></script>
+</body>
+
+</html>
